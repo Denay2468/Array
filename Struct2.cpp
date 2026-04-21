@@ -8,11 +8,12 @@ struct Detaillocation
 };
 
 
+
 struct student
 {
     string id;
     string name;
-    string location;
+    Detaillocation location;
     int age;
 };
 
