@@ -16,11 +16,13 @@ struct student
     string name;
     Detaillocation location;
     int age;
+
 };
 
 int main()
 {
     student s1[3];
+
     for (int i = 0; i < 3; i++)
     {
         cout << "Enter details for student " << i + 1 << ":\n";
@@ -36,8 +38,8 @@ int main()
         cout << "Student Age: ";
         cin >> s1[i].age;
         cin.ignore(); // Clear the newline character from the buffer
-    }
 
+    }
 
     return 0;
 }
