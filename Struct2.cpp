@@ -25,8 +25,11 @@ int main()
     cin >> s1.id; // Input new ID for the student
     cout << "Student Name: " << s1.name << endl;
     cin >> s1.name; // Input new name for the student
-    cout << "Student Location: " << s1.location << endl;
-    cin >> s1.location; // Input new location for the student
+    cout << "Student Location: " << endl;
+    cout << "Student Location - Village: " ;
+    cin >> s1.location.village ;
+    cout << "Student Location - City: " ;
+    cin >> s1.location.city ;
     cout << "Student Age: " << s1.age << endl;
     cin >> s1.age; // Input new age for the student
 
