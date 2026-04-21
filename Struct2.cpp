@@ -36,7 +36,11 @@ int main()
     cout << "Updated Student Information:" << endl;
     cout << "Student ID: " << s1.id << endl;
     cout << "Student Name: " << s1.name << endl;
-    cout << "Student Location: " << s1.location << endl;
+
+    cout << "Student Location: " ;
+    cout << "Village: " << s1.location.village << ", City: " << s1.location.city << endl;
+    cout << "City: " << s1.location.city << endl;
+    
     cout << "Student Age: " << s1.age << endl;
 
 
