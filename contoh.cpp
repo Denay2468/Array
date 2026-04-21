@@ -41,5 +41,16 @@ int main()
 
     }
 
+           cout << "\nEntered Student Information:\n";
+    for (int i = 0; i < 3; i++)
+    {
+        cout << "Student " << i + 1 << ":\n";
+        cout << "ID: " << s1[i].id << endl;
+        cout << "Name: " << s1[i].name << endl;
+        cout << "Location: Village - " << s1[i].location.village << ", City - " << s1[i].location.city << endl;
+        cout << "Age: " << s1[i].age << endl;
+        cout << endl;
+    }
+
     return 0;
 }
