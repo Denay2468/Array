@@ -25,6 +25,8 @@ int main()
     cout << "Updated Student Information:" << endl;
     cout << "Student ID: " << s1.id << endl;
     cout << "Student Name: " << s1.name << endl;
+    cout << "Student Location: " << s1.location << endl;
+    cout << "Student Age: " << s1.age << endl;
 
 
     return 0;
