@@ -23,9 +23,9 @@ int main()
     student s1;
 
     cout << "Student ID: " << s1.id << endl;
-    cin >> s1.id; // Input new ID for the student
+    getline(cin, s1.id); // Input new ID for the student
     cout << "Student Name: " << s1.name << endl;
-    cin >> s1.name; // Input new name for the student
+    getline(cin, s1.name); // Input new name for the student
     cout << "Student Location: " << endl;
     cout << "Student Location - Village: " ;
     cin >> s1.location.village ;
